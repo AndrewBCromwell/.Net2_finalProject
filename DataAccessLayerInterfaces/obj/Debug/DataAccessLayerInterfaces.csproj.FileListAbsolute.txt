@@ -7,3 +7,12 @@ C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerInterfaces\obj\Debug\Da
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.csproj.CopyComplete
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.dll
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\bin\Debug\DataAccessLayerInterfaces.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\bin\Debug\DataAccessLayerInterfaces.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\bin\Debug\DataObjects.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\bin\Debug\DataObjects.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.csproj.AssemblyReference.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.csproj.CoreCompileInputs.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.csproj.CopyComplete
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerInterfaces\obj\Debug\DataAccessLayerInterfaces.pdb

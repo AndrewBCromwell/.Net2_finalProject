@@ -9,3 +9,14 @@ C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAcc
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.CopyComplete
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.dll
 C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataAccessLayerFakes.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataAccessLayerFakes.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataAccessLayerInterfaces.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataObjects.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataAccessLayerInterfaces.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\bin\Debug\DataObjects.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.AssemblyReference.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.CoreCompileInputs.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.CopyComplete
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.pdb

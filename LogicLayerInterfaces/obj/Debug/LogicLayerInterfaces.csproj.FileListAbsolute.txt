@@ -7,3 +7,12 @@ C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLa
 C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.CopyComplete
 C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.dll
 C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\bin\Debug\LogicLayerInterfaces.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\bin\Debug\LogicLayerInterfaces.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\bin\Debug\DataObjects.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\bin\Debug\DataObjects.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.AssemblyReference.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.CoreCompileInputs.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.CopyComplete
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.pdb

@@ -54,7 +54,7 @@ namespace DataAccessLayerFakes
 
         public VenueVM SelectCityAndStateByZipCode(VenueVM venue)
         {
-            throw new NotImplementedException();
+            return venue;
         }
     }
 }

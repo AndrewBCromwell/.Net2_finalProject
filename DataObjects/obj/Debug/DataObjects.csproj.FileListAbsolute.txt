@@ -4,3 +4,9 @@ C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.cspr
 C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.csproj.CoreCompileInputs.cache
 C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.dll
 C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\bin\Debug\DataObjects.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\bin\Debug\DataObjects.pdb
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\obj\Debug\DataObjects.csproj.AssemblyReference.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\obj\Debug\DataObjects.csproj.CoreCompileInputs.cache
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\obj\Debug\DataObjects.dll
+C:\MyCloneFromGithubTest\.Net2_finalProject\DataObjects\obj\Debug\DataObjects.pdb
