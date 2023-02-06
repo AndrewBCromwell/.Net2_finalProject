@@ -1,0 +1,9 @@
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\bin\Debug\LogicLayerInterfaces.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\bin\Debug\LogicLayerInterfaces.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\bin\Debug\DataObjects.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\bin\Debug\DataObjects.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.AssemblyReference.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.CoreCompileInputs.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.csproj.CopyComplete
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\LogicLayerInterfaces\obj\Debug\LogicLayerInterfaces.pdb
