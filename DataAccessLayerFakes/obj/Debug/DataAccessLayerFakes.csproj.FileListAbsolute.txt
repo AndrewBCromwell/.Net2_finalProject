@@ -1,0 +1,11 @@
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataAccessLayerFakes.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataAccessLayerFakes.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataAccessLayerInterfaces.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataObjects.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataAccessLayerInterfaces.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\bin\Debug\DataObjects.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.AssemblyReference.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.CoreCompileInputs.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.csproj.CopyComplete
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataAccessLayerFakes\obj\Debug\DataAccessLayerFakes.pdb

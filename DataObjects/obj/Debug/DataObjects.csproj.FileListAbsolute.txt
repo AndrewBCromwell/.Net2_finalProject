@@ -1,0 +1,6 @@
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\bin\Debug\DataObjects.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\bin\Debug\DataObjects.pdb
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.csproj.AssemblyReference.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.csproj.CoreCompileInputs.cache
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.dll
+C:\dot_net_II\Final_Project\CircusDaysApp\DataObjects\obj\Debug\DataObjects.pdb
