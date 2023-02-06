@@ -1,0 +1,179 @@
+﻿<Window x:Class="WpfPresentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPresentation"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Circus Days" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="Welcome" Background="Salmon">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lblWelcome" Grid.Column="1" FontSize="15" VerticalContentAlignment="Center">Hello</Label>
+            <Button x:Name="btnLogOut" Grid.Column="3" Content="Log Out" Width="100" Height="30" Click="btnLogOut_Click"></Button>
+        </Grid>
+        <StackPanel x:Name="pnlTabs" Grid.Row="1">
+            <TabControl x:Name="tabsetMain" >
+                <TabItem x:Name="tabVenueInfo" Header="Venue Info" GotFocus="tabVenueInfo_GotFocus">
+                    <Grid x:Name="grdVenueInfo" Height="345">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="datVenueInfo" Grid.Row="2" Grid.ColumnSpan="2" IsReadOnly="True" MouseDoubleClick="datVenueInfo_MouseDoubleClick"/>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabAddUse" Header="Add Venue Use" GotFocus="tabAddUse_GotFocus">
+                    <Grid x:Name="grdAddUse" Height="345">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="cmbSelectVenue" Grid.Row="0" Grid.ColumnSpan="2"
+                                  Height="30" Width="250">
+                            <ComboBoxItem IsSelected="True">Select a venue to use.</ComboBoxItem>
+                        </ComboBox>
+                        <Label x:Name="lblUseStart" Grid.Row="1" FontSize="20" HorizontalContentAlignment="Right"
+                               VerticalContentAlignment="Center">Start Date:</Label>
+                        <DatePicker x:Name="dateStart" Grid.Row="1" Grid.Column="1" Height="50" Width="300"/>
+                        <Label x:Name="lblUseEnd" Grid.Row="2" FontSize="20" HorizontalContentAlignment="Right"
+                               VerticalContentAlignment="Center">End Date</Label>
+                        <DatePicker x:Name="dateEnd" Grid.Row="2" Grid.Column="1" Height="50" Width="300"></DatePicker>
+                        <Button x:Name="btnAddUseSubmit" Grid.Row="3" Grid.ColumnSpan="2" Content="Submit"
+                                Height="40" Width="100" Click="btnAddUseSubmit_Click"></Button>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabAddUseDay" Header="Add Use Day" GotFocus="tabAddUseDay_GotFocus">
+                    <Grid x:Name="grdAddUseDay" Height="345">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="cmbSelectUse" Grid.Row="0" Grid.ColumnSpan="2"
+                                  Height="30" Width="350">
+                            <ComboBoxItem IsSelected="True">Select a venue use to add a day record to.</ComboBoxItem>
+                        </ComboBox>
+                        <Label x:Name="lblDate" Grid.Row="1" FontSize="20" HorizontalContentAlignment="Right"
+                               VerticalContentAlignment="Center">Date:</Label>
+                        <DatePicker x:Name="dateDate" Grid.Row="1" Grid.Column="1" Height="50" Width="300"/>
+                        <Label x:Name="lblTicketsSold" Grid.Row="2" FontSize="20" HorizontalAlignment="Right"
+                               VerticalAlignment="Center">Tickets Sold:</Label>
+                        <TextBox x:Name="txtTicketsSold" Grid.Row="2" Grid.Column="1" Height="50" Width="300"/>
+                        <Label x:Name="lblRevenue" Grid.Row="3" FontSize="20" HorizontalAlignment="Right"
+                               VerticalAlignment="Center">Revenue:</Label>
+                        <TextBox x:Name="txtRevenue" Grid.Row="3" Grid.Column="1" Height="50" Width="300"/>
+                        <Button x:Name="btnAddUseDaySubmit" Grid.Row="4" Grid.ColumnSpan="2" Content="Submit"
+                                Height="40" Width="100" Click="btnAddUseDaySubmit_Click"></Button>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabAdCompanyInfo" Header="Ad Company Info" GotFocus="tabAdCompanyInfo_GotFocus">
+                    <Grid x:Name="grdAdCompanyInfo" Height="345">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="datAdCompanyInfo" Grid.Row="2" Grid.ColumnSpan="2" IsReadOnly="True" />
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabAddAdCampaign" Header="Add Ad Campaign" GotFocus="tabAddAdCampaign_GotFocus">
+                    <Grid x:Name="grdAddAdCampaign" Height="345">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40" />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="cmbSelectAdCompany" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Height="30" Width="350">
+                            <ComboBoxItem IsSelected="True">Select an ad company to use.</ComboBoxItem>
+                        </ComboBox>                  
+                        <Label x:Name="lblCurentCost" Grid.Row="0" Grid.Column="2" FontSize="20" Content="Current Cost:"></Label>
+                        <Label x:Name="lblCurentItems" Grid.Row="0" Grid.Column="3" FontSize="20"># of Items:</Label>
+                        <Label x:Name="lblCurentCostNumber" FontSize="20" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2"></Label>
+                        <Label x:Name="lblCurentItemsNumber" FontSize="20" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3"></Label>
+                        <Label x:Name="lblItemNumber" Grid.Row="2" Grid.Column="0" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"
+                               Grid.RowSpan="2">Item #</Label>
+                        <ComboBox x:Name="cmbSelectAdType" Grid.Row="2" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center" Height="30" Width="190">
+                            <ComboBoxItem IsSelected="True">Select an ad type.</ComboBoxItem>
+                        </ComboBox>
+                        <ComboBox x:Name="cmbSelectAct" Grid.Row="2" Grid.RowSpan="2" Grid.Column="2" VerticalAlignment="Center" Height="30" Width="190">
+                            <ComboBoxItem IsSelected="True">Select the focus act of the ad. </ComboBoxItem>
+                            <ComboBoxItem>None</ComboBoxItem>
+                        </ComboBox>
+                        <Label x:Name="lblCost" Grid.Row="2" Grid.Column="3" FontSize="20" HorizontalAlignment="Center">Cost:</Label>
+                        <TextBox x:Name="txtCost" Grid.Row="3" Grid.Column="3" Width="190"></TextBox>
+                        <Button x:Name="btnAnotherItem" Grid.Row="4" Grid.Column="1" Width="150" Height="50" Click="btnAnotherItem_Click">Add another Item</Button>
+                        <Button x:Name="btnRemoveItem" Grid.Row="4" Grid.Column="2" Width="150" Height="50" Click="btnRemoveItem_Click">Remove Last Item</Button>
+                        <Button x:Name="btnAdCampaignSubmit" Grid.Row="5" Grid.Column="1" Width="150" Height="50" Click="btnAdCampaignSubmit_Click">Submit</Button>
+                        <Button x:Name="btnCancel" Grid.Row="5" Grid.Column="2" Width="150" Height="50" Click="btnCancel_Click">Cancel</Button>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabAdCampaignStats" Header="Ad Campaign Stats" GotFocus="tabAdCampaignStats_GotFocus">
+                    <Grid x:Name="grdAdStats" Height="350">
+                        <DataGrid x:Name="datAdCampaignStats" IsReadOnly="True" MouseDoubleClick="datAdCampaignStats_MouseDoubleClick" />
+
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabViewUses" Header="View Uses" GotFocus="tabViewUses_GotFocus" >
+                    <Grid x:Name="grdViewUses" Height="350">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="270"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="datUses" Grid.Row="0" Grid.ColumnSpan="5" IsReadOnly="True"/>
+                        <Label x:Name="lblAssignAdCampaign" Grid.Row="1" Grid.Column="0" FontSize="15" VerticalAlignment="Center">Assign Ad Campaign:</Label>
+                        <ComboBox x:Name="cmbAdCampaignViewUse" Grid.Row="1" Grid.Column="1" Margin="10 25"></ComboBox>
+                        <Label x:Name="lblToVenueUse" Grid.Row="1" Grid.Column="2" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">To Venue Use:</Label>
+                        <ComboBox x:Name="cmbToVenueUse" Grid.Row="1" Grid.Column="3" Margin="10 25"></ComboBox>
+                        <Button x:Name="btnAssignAdToUse" Grid.Row="1" Grid.Column="4" Content="Submit" Margin="15" Click="btnAssignAdToUse_Click"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>
